@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5BD8552545536B004A585D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BD8542545536B004A585D /* Food.swift */; };
+		BF5BD85E25455840004A585D /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = BF5BD85A254553E1004A585D /* food.json */; };
 		BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0625451D6400166D88 /* AppDelegate.swift */; };
 		BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0825451D6400166D88 /* SceneDelegate.swift */; };
 		BFB24C0B25451D6400166D88 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0A25451D6400166D88 /* MainTabBarController.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5BD8542545536B004A585D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		BF5BD85A254553E1004A585D /* food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
 		BFB24C0325451D6400166D88 /* AnimalHospitalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalHospitalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB24C0625451D6400166D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB24C0825451D6400166D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5BD859254553C9004A585D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BF5BD85A254553E1004A585D /* food.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		BFB24BFA25451D6400166D88 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 			children = (
 				BFB24C0625451D6400166D88 /* AppDelegate.swift */,
 				BFB24C0825451D6400166D88 /* SceneDelegate.swift */,
+				BF5BD859254553C9004A585D /* Data */,
 				BFB24CDD254544A800166D88 /* Extension */,
 				BFB24C7F25453C8B00166D88 /* Domain */,
 				BFB24C8025453C8C00166D88 /* Model */,
@@ -173,6 +186,7 @@
 		BFB24C8025453C8C00166D88 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF5BD8542545536B004A585D /* Food.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -414,6 +428,7 @@
 				BFB24C1325451D6500166D88 /* LaunchScreen.storyboard in Resources */,
 				BFB24CD025453EC600166D88 /* Medical.storyboard in Resources */,
 				BFB24C1025451D6500166D88 /* Assets.xcassets in Resources */,
+				BF5BD85E25455840004A585D /* food.json in Resources */,
 				BFB24C0E25451D6400166D88 /* Main.storyboard in Resources */,
 				BFB24CC525453EA900166D88 /* FoodSelect.storyboard in Resources */,
 				BFB24C8F25453D9A00166D88 /* MyPage.storyboard in Resources */,
@@ -443,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5BD8552545536B004A585D /* Food.swift in Sources */,
 				BFB24CEA2545481C00166D88 /* FoodCollectionViewCell.swift in Sources */,
 				BFB24C0B25451D6400166D88 /* MainTabBarController.swift in Sources */,
 				BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */,

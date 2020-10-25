@@ -48,4 +48,12 @@ class FoodCollectionViewCell: UICollectionViewCell {
         self.priceLabel.adjustsFontSizeToFitWidth = true
         self.priceLabel.minimumScaleFactor = 0.4
     }
+    
+    func inject(food: Food) {
+        self.titleLabel.text = food.name
+        self.priceLabel.text = "PRICE: ¥" + String(food.price)
+        
+        let image = UIImage(named: food.imageName)
+        self.foodImageView.image = image
+    }
 }

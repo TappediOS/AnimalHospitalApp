@@ -10,8 +10,15 @@ import UIKit
 class FoodSelectViewController: UIViewController {
     @IBOutlet weak var foodCollectionView: UICollectionView!
     
+    var foods: [Food] = Array()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let data = getDataFromJSON()
+        foods = try! JSONDecoder().decode([Food].self, from: getDataFromJSON())
+        
+        
         
         self.setupNavigationBar()
         self.setupFoodCollectionView()
@@ -36,6 +43,14 @@ class FoodSelectViewController: UIViewController {
         self.foodCollectionView.delegate = self
         self.foodCollectionView.dataSource = self
     }
+    
+    private func getDataFromJSON() -> Data {
+        if let path = Bundle.main.path(forResource: "food", ofType: "json") {
+            return try! Data(contentsOf: URL(fileURLWithPath: path))
+        } else {
+            fatalError()
+        }
+    }
 }
 
 extension FoodSelectViewController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -44,13 +59,15 @@ extension FoodSelectViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 15
+        return foods.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = self.foodCollectionView.dequeueReusableCell(withReuseIdentifier: "foodCell", for: indexPath) as? FoodCollectionViewCell else {
             return UICollectionViewCell()
         }
+        
+        cell.inject(food: foods[indexPath.item])
         
         return cell
     }
@@ -65,7 +82,7 @@ extension FoodSelectViewController: UICollectionViewDelegateFlowLayout {
     // MARK: - FlowLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = UIScreen.main.bounds.width / 2 - 8 - 4
-        return CGSize(width: width, height: width + 75)
+        return CGSize(width: width, height: width + 65)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
