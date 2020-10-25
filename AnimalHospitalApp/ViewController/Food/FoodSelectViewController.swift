@@ -29,8 +29,7 @@ class FoodSelectViewController: UIViewController {
     
     
     func setupNavigationBar() {
-        let title = "フード"
-        self.navigationItem.title = title
+        self.navigationItem.title = "フード"
         self.navigationItem.largeTitleDisplayMode = .always
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
