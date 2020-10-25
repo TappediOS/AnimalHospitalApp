@@ -15,6 +15,8 @@ class FoodDetailViewController: UIViewController {
     @IBOutlet weak var subTitleLabel: UILabel!
     @IBOutlet weak var subExLabel: UILabel!
     
+    @IBOutlet weak var purchaseView: UIView!
+    @IBOutlet weak var purchaseButton: UIButton!
     var food: Food?
     
     override func viewDidLoad() {
@@ -28,6 +30,16 @@ class FoodDetailViewController: UIViewController {
         self.foodImageView.image = UIImage(named: food?.imageName ?? "")
         
         self.subExLabel.sizeToFit()
+        
+        
+        self.purchaseView.layer.masksToBounds = false
+        
+        self.purchaseView.layer.shadowColor = UIColor.black.cgColor
+        self.purchaseView.layer.shadowOpacity = 0.2
+        self.purchaseView.layer.shadowRadius = 4.6
+        self.purchaseView.layer.shadowOffset = CGSize(width: -1.1, height: -1.1)
+        
+        purchaseButton.layer.cornerRadius = 8
         
     }
     
