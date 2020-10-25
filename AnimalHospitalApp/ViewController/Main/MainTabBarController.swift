@@ -30,14 +30,14 @@ class MainTabBarController: UITabBarController {
         let myPageVC = UIStoryboard(name: "MyPage", bundle: nil).instantiateInitialViewController()!
         let myPageNav = UINavigationController(rootViewController: myPageVC)
         
-        let medicalItemImage = UIImage(named: "doc")
-        let medicalItemSelectedImage = UIImage(named: "doc_fill")
-        let foodItemImage = UIImage(named: "food")
-        let foodItemSelectedImage = UIImage(named: "food_fill")
-        let waitingTimeItemImage = UIImage(named: "timer")
-        let waitingTimeItemSelectedImage = UIImage(named: "timer_fill")
-        let myPageItemImage = UIImage(named: "doghouse")
-        let myPageItemSelectedImage = UIImage(named: "doghouse_fill")
+        let medicalItemImage = UIImage(named: "doc")?.resizeUIImage(width: 27, height: 27)
+        let medicalItemSelectedImage = UIImage(named: "doc_fill")?.resizeUIImage(width: 27, height: 27)
+        let foodItemImage = UIImage(named: "food")?.resizeUIImage(width: 27, height: 27)
+        let foodItemSelectedImage = UIImage(named: "food_fill")?.resizeUIImage(width: 27, height: 27)
+        let waitingTimeItemImage = UIImage(named: "timer")?.resizeUIImage(width: 27, height: 27)
+        let waitingTimeItemSelectedImage = UIImage(named: "timer_fill")?.resizeUIImage(width: 27, height: 27)
+        let myPageItemImage = UIImage(named: "doghouse")?.resizeUIImage(width: 27, height: 27)
+        let myPageItemSelectedImage = UIImage(named: "doghouse_fill")?.resizeUIImage(width: 27, height: 27)
       
         
         medicalVC.tabBarItem = UITabBarItem(title: "診察", image: medicalItemImage, selectedImage: medicalItemSelectedImage)
@@ -46,7 +46,7 @@ class MainTabBarController: UITabBarController {
         
         myPageVC.tabBarItem = UITabBarItem(title: "マイページ", image: myPageItemImage, selectedImage: myPageItemSelectedImage)
         
-        UITabBar.appearance().tintColor = .systemTeal
+        UITabBar.appearance().tintColor = .systemPink
         self.viewControllers = [medicalNav, foodNav, waitingTimeNav, myPageNav]
     }
 

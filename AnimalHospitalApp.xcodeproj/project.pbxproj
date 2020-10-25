@@ -25,6 +25,7 @@
 		BFB24CCA25453EB500166D88 /* FoodDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CC925453EB500166D88 /* FoodDetail.storyboard */; };
 		BFB24CD025453EC600166D88 /* Medical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CCF25453EC600166D88 /* Medical.storyboard */; };
 		BFB24CD925453ED400166D88 /* WaitingTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CD825453ED400166D88 /* WaitingTime.storyboard */; };
+		BFB24CDF254544C200166D88 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CDE254544C200166D88 /* UIImageView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		BFB24CC925453EB500166D88 /* FoodDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodDetail.storyboard; sourceTree = "<group>"; };
 		BFB24CCF25453EC600166D88 /* Medical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Medical.storyboard; sourceTree = "<group>"; };
 		BFB24CD825453ED400166D88 /* WaitingTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WaitingTime.storyboard; sourceTree = "<group>"; };
+		BFB24CDE254544C200166D88 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				BFB24C0625451D6400166D88 /* AppDelegate.swift */,
 				BFB24C0825451D6400166D88 /* SceneDelegate.swift */,
+				BFB24CDD254544A800166D88 /* Extension */,
 				BFB24C7F25453C8B00166D88 /* Domain */,
 				BFB24C8025453C8C00166D88 /* Model */,
 				BFB24C8525453CF600166D88 /* Storyboards */,
@@ -294,6 +297,14 @@
 			path = WaitingTime;
 			sourceTree = "<group>";
 		};
+		BFB24CDD254544A800166D88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CDE254544C200166D88 /* UIImageView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -435,6 +446,7 @@
 				BFB24CBF25453E8D00166D88 /* WaitingTimeViewController.swift in Sources */,
 				BFB24CAD25453E1D00166D88 /* FoodDetailViewController.swift in Sources */,
 				BFB24CB625453E5200166D88 /* MedicalViewController.swift in Sources */,
+				BFB24CDF254544C200166D88 /* UIImageView+.swift in Sources */,
 				BFB24C9525453DBD00166D88 /* MyPageVeiwController.swift in Sources */,
 				BFB24CA825453E1400166D88 /* FoodSelectViewController.swift in Sources */,
 			);
