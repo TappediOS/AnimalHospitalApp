@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0625451D6400166D88 /* AppDelegate.swift */; };
+		BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0825451D6400166D88 /* SceneDelegate.swift */; };
+		BFB24C0B25451D6400166D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0A25451D6400166D88 /* ViewController.swift */; };
+		BFB24C0E25451D6400166D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C0C25451D6400166D88 /* Main.storyboard */; };
+		BFB24C1025451D6500166D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C0F25451D6500166D88 /* Assets.xcassets */; };
+		BFB24C1325451D6500166D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C1125451D6500166D88 /* LaunchScreen.storyboard */; };
+		BFB24C1E25451D6600166D88 /* AnimalHospitalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C1D25451D6600166D88 /* AnimalHospitalAppTests.swift */; };
+		BFB24C2925451D6600166D88 /* AnimalHospitalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C2825451D6600166D88 /* AnimalHospitalAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB24C1A25451D6600166D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB24BFB25451D6400166D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB24C0225451D6400166D88;
+			remoteInfo = AnimalHospitalApp;
+		};
+		BFB24C2525451D6600166D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB24BFB25451D6400166D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB24C0225451D6400166D88;
+			remoteInfo = AnimalHospitalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB24C0325451D6400166D88 /* AnimalHospitalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalHospitalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB24C0625451D6400166D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB24C0825451D6400166D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFB24C0A25451D6400166D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB24C0D25451D6400166D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB24C0F25451D6500166D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB24C1225451D6500166D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB24C1425451D6500166D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB24C1925451D6600166D88 /* AnimalHospitalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalHospitalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB24C1D25451D6600166D88 /* AnimalHospitalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalHospitalAppTests.swift; sourceTree = "<group>"; };
+		BFB24C1F25451D6600166D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB24C2425451D6600166D88 /* AnimalHospitalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalHospitalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB24C2825451D6600166D88 /* AnimalHospitalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalHospitalAppUITests.swift; sourceTree = "<group>"; };
+		BFB24C2A25451D6600166D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB24C0025451D6400166D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C1625451D6600166D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C2125451D6600166D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB24BFA25451D6400166D88 = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0525451D6400166D88 /* AnimalHospitalApp */,
+				BFB24C1C25451D6600166D88 /* AnimalHospitalAppTests */,
+				BFB24C2725451D6600166D88 /* AnimalHospitalAppUITests */,
+				BFB24C0425451D6400166D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB24C0425451D6400166D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0325451D6400166D88 /* AnimalHospitalApp.app */,
+				BFB24C1925451D6600166D88 /* AnimalHospitalAppTests.xctest */,
+				BFB24C2425451D6600166D88 /* AnimalHospitalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB24C0525451D6400166D88 /* AnimalHospitalApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0625451D6400166D88 /* AppDelegate.swift */,
+				BFB24C0825451D6400166D88 /* SceneDelegate.swift */,
+				BFB24C0A25451D6400166D88 /* ViewController.swift */,
+				BFB24C0C25451D6400166D88 /* Main.storyboard */,
+				BFB24C0F25451D6500166D88 /* Assets.xcassets */,
+				BFB24C1125451D6500166D88 /* LaunchScreen.storyboard */,
+				BFB24C1425451D6500166D88 /* Info.plist */,
+			);
+			path = AnimalHospitalApp;
+			sourceTree = "<group>";
+		};
+		BFB24C1C25451D6600166D88 /* AnimalHospitalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C1D25451D6600166D88 /* AnimalHospitalAppTests.swift */,
+				BFB24C1F25451D6600166D88 /* Info.plist */,
+			);
+			path = AnimalHospitalAppTests;
+			sourceTree = "<group>";
+		};
+		BFB24C2725451D6600166D88 /* AnimalHospitalAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C2825451D6600166D88 /* AnimalHospitalAppUITests.swift */,
+				BFB24C2A25451D6600166D88 /* Info.plist */,
+			);
+			path = AnimalHospitalAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB24C0225451D6400166D88 /* AnimalHospitalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB24C2D25451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalApp" */;
+			buildPhases = (
+				BFB24BFF25451D6400166D88 /* Sources */,
+				BFB24C0025451D6400166D88 /* Frameworks */,
+				BFB24C0125451D6400166D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalHospitalApp;
+			productName = AnimalHospitalApp;
+			productReference = BFB24C0325451D6400166D88 /* AnimalHospitalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB24C1825451D6600166D88 /* AnimalHospitalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB24C3025451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalAppTests" */;
+			buildPhases = (
+				BFB24C1525451D6600166D88 /* Sources */,
+				BFB24C1625451D6600166D88 /* Frameworks */,
+				BFB24C1725451D6600166D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB24C1B25451D6600166D88 /* PBXTargetDependency */,
+			);
+			name = AnimalHospitalAppTests;
+			productName = AnimalHospitalAppTests;
+			productReference = BFB24C1925451D6600166D88 /* AnimalHospitalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB24C2325451D6600166D88 /* AnimalHospitalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB24C3325451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalAppUITests" */;
+			buildPhases = (
+				BFB24C2025451D6600166D88 /* Sources */,
+				BFB24C2125451D6600166D88 /* Frameworks */,
+				BFB24C2225451D6600166D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB24C2625451D6600166D88 /* PBXTargetDependency */,
+			);
+			name = AnimalHospitalAppUITests;
+			productName = AnimalHospitalAppUITests;
+			productReference = BFB24C2425451D6600166D88 /* AnimalHospitalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB24BFB25451D6400166D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BFB24C0225451D6400166D88 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					BFB24C1825451D6600166D88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BFB24C0225451D6400166D88;
+					};
+					BFB24C2325451D6600166D88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BFB24C0225451D6400166D88;
+					};
+				};
+			};
+			buildConfigurationList = BFB24BFE25451D6400166D88 /* Build configuration list for PBXProject "AnimalHospitalApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB24BFA25451D6400166D88;
+			productRefGroup = BFB24C0425451D6400166D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB24C0225451D6400166D88 /* AnimalHospitalApp */,
+				BFB24C1825451D6600166D88 /* AnimalHospitalAppTests */,
+				BFB24C2325451D6600166D88 /* AnimalHospitalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB24C0125451D6400166D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24C1325451D6500166D88 /* LaunchScreen.storyboard in Resources */,
+				BFB24C1025451D6500166D88 /* Assets.xcassets in Resources */,
+				BFB24C0E25451D6400166D88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C1725451D6600166D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C2225451D6600166D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB24BFF25451D6400166D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24C0B25451D6400166D88 /* ViewController.swift in Sources */,
+				BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */,
+				BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C1525451D6600166D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24C1E25451D6600166D88 /* AnimalHospitalAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB24C2025451D6600166D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB24C2925451D6600166D88 /* AnimalHospitalAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB24C1B25451D6600166D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB24C0225451D6400166D88 /* AnimalHospitalApp */;
+			targetProxy = BFB24C1A25451D6600166D88 /* PBXContainerItemProxy */;
+		};
+		BFB24C2625451D6600166D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB24C0225451D6400166D88 /* AnimalHospitalApp */;
+			targetProxy = BFB24C2525451D6600166D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB24C0C25451D6400166D88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB24C0D25451D6400166D88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB24C1125451D6500166D88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB24C1225451D6500166D88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB24C2B25451D6600166D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB24C2C25451D6600166D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB24C2E25451D6600166D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB24C2F25451D6600166D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFB24C3125451D6600166D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalHospitalApp.app/AnimalHospitalApp";
+			};
+			name = Debug;
+		};
+		BFB24C3225451D6600166D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalHospitalApp.app/AnimalHospitalApp";
+			};
+			name = Release;
+		};
+		BFB24C3425451D6600166D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalHospitalApp;
+			};
+			name = Debug;
+		};
+		BFB24C3525451D6600166D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R4W53MKG7;
+				INFOPLIST_FILE = AnimalHospitalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taped.AnimalHospitalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalHospitalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB24BFE25451D6400166D88 /* Build configuration list for PBXProject "AnimalHospitalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24C2B25451D6600166D88 /* Debug */,
+				BFB24C2C25451D6600166D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB24C2D25451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24C2E25451D6600166D88 /* Debug */,
+				BFB24C2F25451D6600166D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB24C3025451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24C3125451D6600166D88 /* Debug */,
+				BFB24C3225451D6600166D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB24C3325451D6600166D88 /* Build configuration list for PBXNativeTarget "AnimalHospitalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB24C3425451D6600166D88 /* Debug */,
+				BFB24C3525451D6600166D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB24BFB25451D6400166D88 /* Project object */;
+}
