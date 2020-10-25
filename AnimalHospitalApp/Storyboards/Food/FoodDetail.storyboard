@@ -13,20 +13,154 @@
             <objects>
                 <viewController id="f7C-Mv-Y1u" customClass="FoodDetailViewController" customModule="AnimalHospitalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VC9-4X-nrX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jez-YT-tG7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="wzx-Rk-Koa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="789"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tyi-HF-DTF">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Goz-ea-qbT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="Goz-ea-qbT" secondAttribute="trailing" id="1FA-J9-9jo"/>
+                                                    <constraint firstAttribute="height" constant="150" id="KuT-AH-dxM"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Goz-ea-qbT" secondAttribute="bottom" id="O52-aJ-ICs"/>
+                                                    <constraint firstItem="Goz-ea-qbT" firstAttribute="leading" secondItem="Tyi-HF-DTF" secondAttribute="leading" id="ejO-RM-61L"/>
+                                                    <constraint firstItem="Goz-ea-qbT" firstAttribute="top" secondItem="Tyi-HF-DTF" secondAttribute="top" id="i3b-8N-qav"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7t-8U-SeE">
+                                                <rect key="frame" x="0.0" y="152" width="414" height="550"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7p3-ZK-JsZ">
+                                                        <rect key="frame" x="8" y="8" width="398" height="34"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="34" id="uQ6-TA-5jy"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4H-QG-Mii">
+                                                        <rect key="frame" x="8" y="50" width="398" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="Uzb-Id-9BK"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <color key="textColor" systemColor="systemPinkColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成長期のプードルのために特別に開発されたキブル（粒） 成長期のプードルがしっかりと噛めるように設計された、最適な大きさ、形、食感のキブル（粒）です。よく噛むことにより歯垢・歯石の蓄積を抑える手助けをします。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUi-9Y-ibW">
+                                                        <rect key="frame" x="8" y="87" width="398" height="101.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="250" constant="100" id="Mfq-Pi-ksv"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健康を維持することで免疫力をサポート" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHX-k9-ELj">
+                                                        <rect key="frame" x="8" y="212.5" width="398" height="20.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20.5" id="3p6-j1-8bP"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Rw-pq-2NA">
+                                                        <rect key="frame" x="8" y="249" width="398" height="293"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="250" constant="376.5" id="kVb-X5-mFs"/>
+                                                        </constraints>
+                                                        <string key="text">成長期は犬の一生のなかで、極めて重要な期間です。日々新しい発見や出会いを積み重ねるとともに、身体が大きく成長していきます。子犬の免疫機能は、この重要な期間に少しずつ発達していきます。＜プードル 子犬用＞は、ビタミンEを含む、独自の抗酸化成分の配合が健康を維持することで、子犬本来の抵抗力を維持します。
+
+健康なプードルの柔らかい被毛と健康な皮膚を維持するために、ルリチシャ油やオメガ３系不飽和脂肪酸（EPA・DHA）を配合。また、伸び続ける被毛の健康な成長を促すために最適なタンパク質量に設計されています。</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="MHX-k9-ELj" secondAttribute="trailing" constant="8" id="02V-Aj-1No"/>
+                                                    <constraint firstItem="Z4H-QG-Mii" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="42G-AR-FH4"/>
+                                                    <constraint firstItem="Z4H-QG-Mii" firstAttribute="top" secondItem="7p3-ZK-JsZ" secondAttribute="bottom" constant="8" symbolic="YES" id="AcA-2L-FP5"/>
+                                                    <constraint firstAttribute="height" constant="550" id="GHx-01-gwE"/>
+                                                    <constraint firstItem="BUi-9Y-ibW" firstAttribute="top" secondItem="Z4H-QG-Mii" secondAttribute="bottom" constant="16" id="Lio-BI-Ijt"/>
+                                                    <constraint firstItem="MHX-k9-ELj" firstAttribute="top" secondItem="BUi-9Y-ibW" secondAttribute="bottom" constant="24" id="Sb5-3d-7fP"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Z4H-QG-Mii" secondAttribute="trailing" constant="8" id="TI7-Bc-T3c"/>
+                                                    <constraint firstAttribute="trailing" secondItem="7p3-ZK-JsZ" secondAttribute="trailing" constant="8" id="UBA-Qp-KZX"/>
+                                                    <constraint firstItem="BUi-9Y-ibW" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="VeD-ps-pHf"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4Rw-pq-2NA" secondAttribute="bottom" constant="8" id="beY-1W-0zv"/>
+                                                    <constraint firstItem="MHX-k9-ELj" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="d2t-GY-etR"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4Rw-pq-2NA" secondAttribute="trailing" constant="8" id="gdj-AE-s67"/>
+                                                    <constraint firstItem="4Rw-pq-2NA" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="hHZ-vC-Ct4"/>
+                                                    <constraint firstItem="7p3-ZK-JsZ" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="jjj-Sl-x2h"/>
+                                                    <constraint firstItem="MHX-k9-ELj" firstAttribute="top" secondItem="BUi-9Y-ibW" secondAttribute="bottom" constant="24" id="lAd-iq-4M0"/>
+                                                    <constraint firstItem="7p3-ZK-JsZ" firstAttribute="top" secondItem="B7t-8U-SeE" secondAttribute="top" constant="8" id="o1t-gC-tb8"/>
+                                                    <constraint firstItem="4Rw-pq-2NA" firstAttribute="top" secondItem="MHX-k9-ELj" secondAttribute="bottom" constant="16" id="q2s-1e-jDn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="BUi-9Y-ibW" secondAttribute="trailing" constant="8" id="yaK-MB-4HR"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GfM-B5-Bg8">
+                                                <rect key="frame" x="0.0" y="704" width="414" height="85"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="Nsx-nR-TOp"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wzx-Rk-Koa" firstAttribute="leading" secondItem="jez-YT-tG7" secondAttribute="leading" id="W5F-hE-BaE"/>
+                                    <constraint firstAttribute="bottom" secondItem="wzx-Rk-Koa" secondAttribute="bottom" id="jC1-ki-aVg"/>
+                                    <constraint firstAttribute="trailing" secondItem="wzx-Rk-Koa" secondAttribute="trailing" id="nta-EL-4n9"/>
+                                    <constraint firstItem="wzx-Rk-Koa" firstAttribute="width" secondItem="jez-YT-tG7" secondAttribute="width" id="oHl-sH-fKq"/>
+                                    <constraint firstItem="wzx-Rk-Koa" firstAttribute="top" secondItem="jez-YT-tG7" secondAttribute="top" id="tWx-tI-GTP"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="k1t-v0-5ww"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jez-YT-tG7" firstAttribute="top" secondItem="VC9-4X-nrX" secondAttribute="top" id="13h-Os-dTw"/>
+                            <constraint firstAttribute="bottom" secondItem="jez-YT-tG7" secondAttribute="bottom" id="7wm-It-IEF"/>
+                            <constraint firstItem="jez-YT-tG7" firstAttribute="leading" secondItem="k1t-v0-5ww" secondAttribute="leading" id="Evs-pD-zGV"/>
+                            <constraint firstItem="jez-YT-tG7" firstAttribute="trailing" secondItem="k1t-v0-5ww" secondAttribute="trailing" id="iNh-8G-8Ri"/>
+                        </constraints>
                     </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                    <connections>
+                        <outlet property="exLabel" destination="BUi-9Y-ibW" id="9G1-s7-Lut"/>
+                        <outlet property="foodImageView" destination="Goz-ea-qbT" id="vwu-DU-5By"/>
+                        <outlet property="priceLabel" destination="Z4H-QG-Mii" id="F7v-mP-4cw"/>
+                        <outlet property="subExLabel" destination="4Rw-pq-2NA" id="HFf-pE-5wc"/>
+                        <outlet property="subTitleLabel" destination="MHX-k9-ELj" id="hW9-yn-LIj"/>
+                        <outlet property="titleLabel" destination="7p3-ZK-JsZ" id="RzA-8W-oXo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3R3-Lo-kcR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="138"/>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

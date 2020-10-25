@@ -15,11 +15,8 @@ class FoodSelectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let data = getDataFromJSON()
         foods = try! JSONDecoder().decode([Food].self, from: getDataFromJSON())
-        
-        
-        
+                
         self.setupNavigationBar()
         self.setupFoodCollectionView()
     }
@@ -74,6 +71,11 @@ extension FoodSelectViewController: UICollectionViewDelegate, UICollectionViewDa
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
        
+        let detailVC = UIStoryboard(name: "FoodDetail", bundle: nil).instantiateInitialViewController() as! FoodDetailViewController
+
+        detailVC.setFood(food: self.foods[indexPath.item])
+        
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 
 }
