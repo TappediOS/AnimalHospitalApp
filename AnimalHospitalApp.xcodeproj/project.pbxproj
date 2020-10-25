@@ -26,6 +26,7 @@
 		BFB24CD025453EC600166D88 /* Medical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CCF25453EC600166D88 /* Medical.storyboard */; };
 		BFB24CD925453ED400166D88 /* WaitingTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CD825453ED400166D88 /* WaitingTime.storyboard */; };
 		BFB24CDF254544C200166D88 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CDE254544C200166D88 /* UIImageView+.swift */; };
+		BFB24CEA2545481C00166D88 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CE92545481C00166D88 /* FoodCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		BFB24CCF25453EC600166D88 /* Medical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Medical.storyboard; sourceTree = "<group>"; };
 		BFB24CD825453ED400166D88 /* WaitingTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WaitingTime.storyboard; sourceTree = "<group>"; };
 		BFB24CDE254544C200166D88 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		BFB24CE92545481C00166D88 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 			children = (
 				BFB24CA725453E1400166D88 /* FoodSelectViewController.swift */,
 				BFB24CAC25453E1D00166D88 /* FoodDetailViewController.swift */,
+				BFB24CE92545481C00166D88 /* FoodCollectionViewCell.swift */,
 			);
 			path = Food;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB24CEA2545481C00166D88 /* FoodCollectionViewCell.swift in Sources */,
 				BFB24C0B25451D6400166D88 /* MainTabBarController.swift in Sources */,
 				BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */,
 				BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */,
