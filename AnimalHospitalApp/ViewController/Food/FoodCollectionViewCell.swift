@@ -25,11 +25,16 @@ class FoodCollectionViewCell: UICollectionViewCell {
     func setupCell() {
         self.backgroundColor = .systemBackground
         self.layer.cornerRadius = 8
-        self.layer.masksToBounds = true
+        self.layer.masksToBounds = false
+        
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.15 //影の色の透明度
+        self.layer.shadowRadius = 4.8 //影のぼかし
+        self.layer.shadowOffset = CGSize(width: 1, height: 1) //影の方向　width、heightを負の値にすると上の方に影が表示される
     }
     
     func setupFoodImageView() {
-        self.foodImageView.layer.borderWidth = 0.25
+        
         self.foodImageView.layer.cornerRadius = 8
         self.foodImageView.layer.masksToBounds = true
     }
