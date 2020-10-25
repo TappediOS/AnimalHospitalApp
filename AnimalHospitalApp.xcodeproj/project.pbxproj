@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0625451D6400166D88 /* AppDelegate.swift */; };
 		BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0825451D6400166D88 /* SceneDelegate.swift */; };
-		BFB24C0B25451D6400166D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0A25451D6400166D88 /* ViewController.swift */; };
+		BFB24C0B25451D6400166D88 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C0A25451D6400166D88 /* MainTabBarController.swift */; };
 		BFB24C0E25451D6400166D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C0C25451D6400166D88 /* Main.storyboard */; };
 		BFB24C1025451D6500166D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C0F25451D6500166D88 /* Assets.xcassets */; };
 		BFB24C1325451D6500166D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C1125451D6500166D88 /* LaunchScreen.storyboard */; };
 		BFB24C1E25451D6600166D88 /* AnimalHospitalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C1D25451D6600166D88 /* AnimalHospitalAppTests.swift */; };
 		BFB24C2925451D6600166D88 /* AnimalHospitalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C2825451D6600166D88 /* AnimalHospitalAppUITests.swift */; };
+		BFB24C8F25453D9A00166D88 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24C8E25453D9A00166D88 /* MyPage.storyboard */; };
+		BFB24C9525453DBD00166D88 /* MyPageVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24C9425453DBD00166D88 /* MyPageVeiwController.swift */; };
+		BFB24CA825453E1400166D88 /* FoodSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CA725453E1400166D88 /* FoodSelectViewController.swift */; };
+		BFB24CAD25453E1D00166D88 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CAC25453E1D00166D88 /* FoodDetailViewController.swift */; };
+		BFB24CB625453E5200166D88 /* MedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CB525453E5200166D88 /* MedicalViewController.swift */; };
+		BFB24CBF25453E8D00166D88 /* WaitingTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB24CBE25453E8D00166D88 /* WaitingTimeViewController.swift */; };
+		BFB24CC525453EA900166D88 /* FoodSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CC425453EA900166D88 /* FoodSelect.storyboard */; };
+		BFB24CCA25453EB500166D88 /* FoodDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CC925453EB500166D88 /* FoodDetail.storyboard */; };
+		BFB24CD025453EC600166D88 /* Medical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CCF25453EC600166D88 /* Medical.storyboard */; };
+		BFB24CD925453ED400166D88 /* WaitingTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB24CD825453ED400166D88 /* WaitingTime.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,7 @@
 		BFB24C0325451D6400166D88 /* AnimalHospitalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalHospitalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB24C0625451D6400166D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB24C0825451D6400166D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFB24C0A25451D6400166D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB24C0A25451D6400166D88 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		BFB24C0D25451D6400166D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB24C0F25451D6500166D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB24C1225451D6500166D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,16 @@
 		BFB24C2425451D6600166D88 /* AnimalHospitalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalHospitalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB24C2825451D6600166D88 /* AnimalHospitalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalHospitalAppUITests.swift; sourceTree = "<group>"; };
 		BFB24C2A25451D6600166D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB24C8E25453D9A00166D88 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		BFB24C9425453DBD00166D88 /* MyPageVeiwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageVeiwController.swift; sourceTree = "<group>"; };
+		BFB24CA725453E1400166D88 /* FoodSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSelectViewController.swift; sourceTree = "<group>"; };
+		BFB24CAC25453E1D00166D88 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		BFB24CB525453E5200166D88 /* MedicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalViewController.swift; sourceTree = "<group>"; };
+		BFB24CBE25453E8D00166D88 /* WaitingTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingTimeViewController.swift; sourceTree = "<group>"; };
+		BFB24CC425453EA900166D88 /* FoodSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodSelect.storyboard; sourceTree = "<group>"; };
+		BFB24CC925453EB500166D88 /* FoodDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodDetail.storyboard; sourceTree = "<group>"; };
+		BFB24CCF25453EC600166D88 /* Medical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Medical.storyboard; sourceTree = "<group>"; };
+		BFB24CD825453ED400166D88 /* WaitingTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WaitingTime.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +121,11 @@
 			children = (
 				BFB24C0625451D6400166D88 /* AppDelegate.swift */,
 				BFB24C0825451D6400166D88 /* SceneDelegate.swift */,
-				BFB24C0A25451D6400166D88 /* ViewController.swift */,
-				BFB24C0C25451D6400166D88 /* Main.storyboard */,
-				BFB24C0F25451D6500166D88 /* Assets.xcassets */,
+				BFB24C7F25453C8B00166D88 /* Domain */,
+				BFB24C8025453C8C00166D88 /* Model */,
+				BFB24C8525453CF600166D88 /* Storyboards */,
+				BFB24C8225453C8C00166D88 /* ViewController */,
+				BFB24C8125453C8C00166D88 /* Resources */,
 				BFB24C1125451D6500166D88 /* LaunchScreen.storyboard */,
 				BFB24C1425451D6500166D88 /* Info.plist */,
 			);
@@ -126,6 +148,150 @@
 				BFB24C2A25451D6600166D88 /* Info.plist */,
 			);
 			path = AnimalHospitalAppUITests;
+			sourceTree = "<group>";
+		};
+		BFB24C7E25453C8B00166D88 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		BFB24C7F25453C8B00166D88 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C7E25453C8B00166D88 /* Usecase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		BFB24C8025453C8C00166D88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFB24C8125453C8C00166D88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C8325453CA600166D88 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFB24C8225453C8C00166D88 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CBD25453E7100166D88 /* WaitingTime */,
+				BFB24CB425453E3D00166D88 /* Medical */,
+				BFB24C9C25453DE300166D88 /* Food */,
+				BFB24C9325453DA700166D88 /* MyPage */,
+				BFB24C8425453CDF00166D88 /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BFB24C8325453CA600166D88 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0F25451D6500166D88 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BFB24C8425453CDF00166D88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0A25451D6400166D88 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFB24C8525453CF600166D88 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CD425453EC800166D88 /* WaitingTime */,
+				BFB24CCE25453EBB00166D88 /* Medical */,
+				BFB24CC325453E9E00166D88 /* Food */,
+				BFB24C8D25453D8D00166D88 /* MyPage */,
+				BFB24C8C25453D8200166D88 /* Main */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BFB24C8C25453D8200166D88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C0C25451D6400166D88 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFB24C8D25453D8D00166D88 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C8E25453D9A00166D88 /* MyPage.storyboard */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		BFB24C9325453DA700166D88 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24C9425453DBD00166D88 /* MyPageVeiwController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		BFB24C9C25453DE300166D88 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CA725453E1400166D88 /* FoodSelectViewController.swift */,
+				BFB24CAC25453E1D00166D88 /* FoodDetailViewController.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		BFB24CB425453E3D00166D88 /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CB525453E5200166D88 /* MedicalViewController.swift */,
+			);
+			path = Medical;
+			sourceTree = "<group>";
+		};
+		BFB24CBD25453E7100166D88 /* WaitingTime */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CBE25453E8D00166D88 /* WaitingTimeViewController.swift */,
+			);
+			path = WaitingTime;
+			sourceTree = "<group>";
+		};
+		BFB24CC325453E9E00166D88 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CC425453EA900166D88 /* FoodSelect.storyboard */,
+				BFB24CC925453EB500166D88 /* FoodDetail.storyboard */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		BFB24CCE25453EBB00166D88 /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CCF25453EC600166D88 /* Medical.storyboard */,
+			);
+			path = Medical;
+			sourceTree = "<group>";
+		};
+		BFB24CD425453EC800166D88 /* WaitingTime */ = {
+			isa = PBXGroup;
+			children = (
+				BFB24CD825453ED400166D88 /* WaitingTime.storyboard */,
+			);
+			path = WaitingTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +398,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB24C1325451D6500166D88 /* LaunchScreen.storyboard in Resources */,
+				BFB24CD025453EC600166D88 /* Medical.storyboard in Resources */,
 				BFB24C1025451D6500166D88 /* Assets.xcassets in Resources */,
 				BFB24C0E25451D6400166D88 /* Main.storyboard in Resources */,
+				BFB24CC525453EA900166D88 /* FoodSelect.storyboard in Resources */,
+				BFB24C8F25453D9A00166D88 /* MyPage.storyboard in Resources */,
+				BFB24CCA25453EB500166D88 /* FoodDetail.storyboard in Resources */,
+				BFB24CD925453ED400166D88 /* WaitingTime.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB24C0B25451D6400166D88 /* ViewController.swift in Sources */,
+				BFB24C0B25451D6400166D88 /* MainTabBarController.swift in Sources */,
 				BFB24C0725451D6400166D88 /* AppDelegate.swift in Sources */,
 				BFB24C0925451D6400166D88 /* SceneDelegate.swift in Sources */,
+				BFB24CBF25453E8D00166D88 /* WaitingTimeViewController.swift in Sources */,
+				BFB24CAD25453E1D00166D88 /* FoodDetailViewController.swift in Sources */,
+				BFB24CB625453E5200166D88 /* MedicalViewController.swift in Sources */,
+				BFB24C9525453DBD00166D88 /* MyPageVeiwController.swift in Sources */,
+				BFB24CA825453E1400166D88 /* FoodSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
