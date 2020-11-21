@@ -13,33 +13,33 @@
             <objects>
                 <viewController id="f7C-Mv-Y1u" customClass="FoodDetailViewController" customModule="AnimalHospitalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VC9-4X-nrX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jez-YT-tG7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="wzx-Rk-Koa">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="789"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1189"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tyi-HF-DTF">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Goz-ea-qbT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="Goz-ea-qbT" secondAttribute="trailing" id="1FA-J9-9jo"/>
-                                                    <constraint firstAttribute="height" constant="150" id="KuT-AH-dxM"/>
+                                                    <constraint firstAttribute="height" constant="200" id="KuT-AH-dxM"/>
                                                     <constraint firstAttribute="bottom" secondItem="Goz-ea-qbT" secondAttribute="bottom" id="O52-aJ-ICs"/>
                                                     <constraint firstItem="Goz-ea-qbT" firstAttribute="leading" secondItem="Tyi-HF-DTF" secondAttribute="leading" id="ejO-RM-61L"/>
                                                     <constraint firstItem="Goz-ea-qbT" firstAttribute="top" secondItem="Tyi-HF-DTF" secondAttribute="top" id="i3b-8N-qav"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7t-8U-SeE">
-                                                <rect key="frame" x="0.0" y="152" width="414" height="550"/>
+                                                <rect key="frame" x="0.0" y="202" width="414" height="900"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7p3-ZK-JsZ">
                                                         <rect key="frame" x="8" y="8" width="398" height="34"/>
@@ -77,14 +77,36 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Rw-pq-2NA">
-                                                        <rect key="frame" x="8" y="257" width="398" height="285"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健康のために考える栄養バランス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEQ-5K-9ua">
+                                                        <rect key="frame" x="8" y="663.5" width="398" height="20.5"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" priority="250" constant="376.5" id="kVb-X5-mFs"/>
+                                                            <constraint firstAttribute="height" constant="20.5" id="dXj-LI-VCu"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Rw-pq-2NA">
+                                                        <rect key="frame" x="8" y="257" width="398" height="374.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="300" id="kVb-X5-mFs"/>
                                                         </constraints>
                                                         <string key="text">成長期は犬の一生のなかで、極めて重要な期間です。日々新しい発見や出会いを積み重ねるとともに、身体が大きく成長していきます。子犬の免疫機能は、この重要な期間に少しずつ発達していきます。＜プードル 子犬用＞は、ビタミンEを含む、独自の抗酸化成分の配合が健康を維持することで、子犬本来の抵抗力を維持します。
 
 健康なプードルの柔らかい被毛と健康な皮膚を維持するために、ルリチシャ油やオメガ３系不飽和脂肪酸（EPA・DHA）を配合。また、伸び続ける被毛の健康な成長を促すために最適なタンパク質量に設計されています。</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZF-yU-V0B">
+                                                        <rect key="frame" x="8" y="692" width="398" height="200"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" priority="750" constant="200" id="z8E-9j-I6S"/>
+                                                        </constraints>
+                                                        <string key="text">アメリカン ショートヘアーは丈夫でバランスが良く取れた猫ですが、太りやすい傾向があります。
+
+また、光沢をもった、短く厚みがある被毛が特徴です。カロリー含有量を適切に調整し、オメガ3・6系不飽和脂肪酸を配合するなど、ロイヤルカナン独自の猫種ごとに最適な栄養バランスで愛猫の健康をサポートします。
+</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -95,25 +117,31 @@
                                                     <constraint firstAttribute="trailing" secondItem="MHX-k9-ELj" secondAttribute="trailing" constant="8" id="02V-Aj-1No"/>
                                                     <constraint firstItem="Z4H-QG-Mii" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="42G-AR-FH4"/>
                                                     <constraint firstItem="Z4H-QG-Mii" firstAttribute="top" secondItem="7p3-ZK-JsZ" secondAttribute="bottom" constant="8" symbolic="YES" id="AcA-2L-FP5"/>
-                                                    <constraint firstAttribute="height" constant="550" id="GHx-01-gwE"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="400" id="GHx-01-gwE"/>
                                                     <constraint firstItem="BUi-9Y-ibW" firstAttribute="top" secondItem="Z4H-QG-Mii" secondAttribute="bottom" constant="16" id="Lio-BI-Ijt"/>
                                                     <constraint firstItem="MHX-k9-ELj" firstAttribute="top" secondItem="BUi-9Y-ibW" secondAttribute="bottom" constant="32" id="Sb5-3d-7fP"/>
                                                     <constraint firstAttribute="trailing" secondItem="Z4H-QG-Mii" secondAttribute="trailing" constant="8" id="TI7-Bc-T3c"/>
                                                     <constraint firstAttribute="trailing" secondItem="7p3-ZK-JsZ" secondAttribute="trailing" constant="8" id="UBA-Qp-KZX"/>
+                                                    <constraint firstAttribute="trailing" secondItem="eZF-yU-V0B" secondAttribute="trailing" constant="8" id="Uz5-84-gvv"/>
                                                     <constraint firstItem="BUi-9Y-ibW" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="VeD-ps-pHf"/>
-                                                    <constraint firstAttribute="bottom" secondItem="4Rw-pq-2NA" secondAttribute="bottom" constant="8" id="beY-1W-0zv"/>
+                                                    <constraint firstItem="eZF-yU-V0B" firstAttribute="top" secondItem="eEQ-5K-9ua" secondAttribute="bottom" constant="8" id="a8s-X8-hoO"/>
                                                     <constraint firstItem="MHX-k9-ELj" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="d2t-GY-etR"/>
+                                                    <constraint firstItem="eEQ-5K-9ua" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="gUP-IN-dq1"/>
                                                     <constraint firstAttribute="trailing" secondItem="4Rw-pq-2NA" secondAttribute="trailing" constant="8" id="gdj-AE-s67"/>
+                                                    <constraint firstItem="eZF-yU-V0B" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="grn-sb-hwc"/>
                                                     <constraint firstItem="4Rw-pq-2NA" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="hHZ-vC-Ct4"/>
                                                     <constraint firstItem="7p3-ZK-JsZ" firstAttribute="leading" secondItem="B7t-8U-SeE" secondAttribute="leading" constant="8" id="jjj-Sl-x2h"/>
                                                     <constraint firstItem="MHX-k9-ELj" firstAttribute="top" secondItem="BUi-9Y-ibW" secondAttribute="bottom" constant="32" id="lAd-iq-4M0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="eEQ-5K-9ua" secondAttribute="trailing" constant="8" id="m6S-fE-P4P"/>
+                                                    <constraint firstAttribute="bottom" secondItem="eZF-yU-V0B" secondAttribute="bottom" constant="8" id="mSM-u0-lsJ"/>
                                                     <constraint firstItem="7p3-ZK-JsZ" firstAttribute="top" secondItem="B7t-8U-SeE" secondAttribute="top" constant="8" id="o1t-gC-tb8"/>
                                                     <constraint firstItem="4Rw-pq-2NA" firstAttribute="top" secondItem="MHX-k9-ELj" secondAttribute="bottom" constant="16" id="q2s-1e-jDn"/>
+                                                    <constraint firstItem="eEQ-5K-9ua" firstAttribute="top" secondItem="4Rw-pq-2NA" secondAttribute="bottom" constant="32" id="rd0-lW-4xb"/>
                                                     <constraint firstAttribute="trailing" secondItem="BUi-9Y-ibW" secondAttribute="trailing" constant="8" id="yaK-MB-4HR"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GfM-B5-Bg8">
-                                                <rect key="frame" x="0.0" y="704" width="414" height="85"/>
+                                                <rect key="frame" x="0.0" y="1104" width="414" height="85"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="Nsx-nR-TOp"/>
@@ -131,7 +159,7 @@
                                 </constraints>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-j0-Tm4">
-                                <rect key="frame" x="0.0" y="881" width="414" height="85"/>
+                                <rect key="frame" x="0.0" y="1081" width="414" height="85"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pO-ez-lyH">
                                         <rect key="frame" x="16" y="16.5" width="382" height="52"/>
@@ -167,7 +195,7 @@
                             <constraint firstItem="BQg-j0-Tm4" firstAttribute="leading" secondItem="k1t-v0-5ww" secondAttribute="leading" id="kzH-l9-AAC"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1000"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                     <connections>
                         <outlet property="exLabel" destination="BUi-9Y-ibW" id="9G1-s7-Lut"/>
                         <outlet property="foodImageView" destination="Goz-ea-qbT" id="vwu-DU-5By"/>
