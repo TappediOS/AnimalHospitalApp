@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f7C-Mv-Y1u">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f7C-Mv-Y1u">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -131,13 +131,13 @@
                                 </constraints>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-j0-Tm4">
-                                <rect key="frame" x="0.0" y="886" width="414" height="80"/>
+                                <rect key="frame" x="0.0" y="881" width="414" height="85"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pO-ez-lyH">
-                                        <rect key="frame" x="50" y="17.5" width="314" height="45"/>
+                                        <rect key="frame" x="16" y="16.5" width="382" height="52"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="vUc-Kl-VHT"/>
+                                            <constraint firstAttribute="height" constant="52" id="vUc-Kl-VHT"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                         <state key="normal" title="購入する">
@@ -147,11 +147,10 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="4pO-ez-lyH" firstAttribute="leading" secondItem="BQg-j0-Tm4" secondAttribute="leading" constant="50" id="Bwv-bQ-6Xd"/>
+                                    <constraint firstItem="4pO-ez-lyH" firstAttribute="leading" secondItem="BQg-j0-Tm4" secondAttribute="leading" constant="16" id="Bwv-bQ-6Xd"/>
                                     <constraint firstItem="4pO-ez-lyH" firstAttribute="centerX" secondItem="BQg-j0-Tm4" secondAttribute="centerX" id="Nb8-KY-dJR"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Wd0-nx-h1R"/>
-                                    <constraint firstAttribute="trailing" secondItem="4pO-ez-lyH" secondAttribute="trailing" constant="50" id="YAe-dI-wgr"/>
-                                    <constraint firstAttribute="height" constant="80" id="x1g-yI-CAv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="Wd0-nx-h1R"/>
+                                    <constraint firstAttribute="height" constant="85" id="x1g-yI-CAv"/>
                                     <constraint firstItem="4pO-ez-lyH" firstAttribute="centerY" secondItem="BQg-j0-Tm4" secondAttribute="centerY" id="zZK-Uv-FiE"/>
                                 </constraints>
                             </view>
